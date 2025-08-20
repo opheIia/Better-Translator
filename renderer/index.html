@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="header" class="drag">
+      <div id="title">Translator</div>
+      <div id="controls" class="no-drag">
+        <select id="lang">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="de">Deutsch</option>
+          <option value="ar">العربية</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="it">Italiano</option>
+          <option value="pt">Português</option>
+          <option value="ru">Русский</option>
+          <option value="zh">中文</option>
+        </select>
+      </div>
+    </div>
+    <div id="content">
+      <div id="status"></div>
+      <div id="src"></div>
+      <div id="dst"></div>
+    </div>
+    <div id="footer" class="no-drag">
+      <span class="hint"></span>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

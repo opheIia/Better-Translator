@@ -1,0 +1,16 @@
+{
+  "name": "better-translator",
+  "version": "1.0.0",
+  "description": "Select text anywhere, press Ctrl+C, and see an instant translation popup. Built with Electron + Node.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "electron": "^29.3.0"
+  }
+}
